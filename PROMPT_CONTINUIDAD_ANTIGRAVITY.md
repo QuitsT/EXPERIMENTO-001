@@ -110,26 +110,54 @@ El archivo actual es `experimento_001_tanda11.html` (304 KB, ~4511 líneas). La 
 - Prueba simulada: **44 PASS, 0 FAIL** (entrar/salir agachándose en ambos sentidos, progreso por mapa congelado, jefes independientes, barra sin reset, puerta sin traba con enemigos lejanos, spawns en puertas visibles, `draw()` sin errores).
 - **La prueba en mi teléfono YA ESTÁ HECHA.** Yo ya probé la Tanda 11 en mi celular y te di mi feedback. **No me pidas que la pruebe primero, no me digas que falta probarla, no esperes a que yo te diga qué tanda toca: avanza directamente con el siguiente paso (sección 4).**
 
-## 4. QUÉ QUIERO HACER AHORA (SIGUIENTE PASO)
+### 3.11 ¡ATENCIÓN! La Tanda 12 que subiste NO es la Misión 2
+
+Subiste a GitHub `experimento_001_tanda12.html` ("Misión 2: Sector Industrial", 14 nov 2026, 11:30 CST). **Esa tanda NO vale como Misión 2.** La hiciste con el prompt VIEJO, antes de que escribiéramos la historia, y por eso inventaste un Sector Industrial genérico que no tiene nada que ver con la historia.
+
+**NO la uses como base. NO la repitas. La base sigue siendo la Tanda 11.**
+
+La Misión 2 real es la de **Yuki en Tokio** (sección 4). Hazla como **Tanda 13**, basada en la Tanda 11, no en la Tanda 12.
+
+## 4. HISTORIA (ESCRITA EL 14 DE NOVIEMBRE DE 2026 — LÉELA, ES LA BASE DE TODO)
+
+El gobierno encontró tecnología alienígena caída del cielo, secuestró a 4 personas que no tenían nada que ver entre ellas, les hizo experimentos, y ahora escapan juntos. **Son 5 misiones en total, mínimo.**
+
+- **Misión 1 (ya hecha, Tanda 11):** los 4 escapan juntos de la Instalación, peleando contra el Comandante Experimental. No solo El Capitán, los 4 juntos, con diálogos entre ellos.
+- **Misión 2 — YUKI (Tokio, Japón):** Yuki vuelve a buscar a su hermana Hana. Su momento de nostalgia: encontrar un dibujo de Hana que hizo en una servilleta antes de que la secuestraran. Jefe: el científico que la secuestró. **Al terminar esta misión se desbloquea Hana como personaje seleccionable en el lugar de Yuki — NO es un quinto experimento, siguen siendo 4. Antes de terminar la misión, Hana ni aparece en el menú: es un easter egg.**
+- **Misión 3 — AMARA (Dakar, Senegal):** maestra de primaria, recupera su escuela convertida en laboratorio. Su momento: encontrar una grabación de ella cantando para sus niños y volver a cantar después de 2 años.
+- **Misión 4 — VIKTOR (Moscú, Rusia):** ex soldado, vuelve con su esposa Irina y su hija Katya. Su momento: encontrar las 47 cartas que escribió y nunca mandó.
+- **Misión 5 — EL CAPITÁN (Daniel Reyes, México):** vuelven a la Instalación a cerrarla. Jefe final: el director del proyecto.
+
+Los 4 personajes (archivo `HISTORIA-EXPERIMENTO-001.md` en el repo, léelo completo):
+- **El Capitán / Daniel Reyes, México:** mecánico de Durango, vivía con su mamá y su hermanito. Fue el primero, le hicieron lo peor. Lidera porque se acuerda de cómo era tener familia.
+- **Yuki Tanaka, Japón, 22 años:** estudiaba diseño, vivía con su hermana Hana (16). Dibujaba en servilletas. Poder: velocidad y reflejos.
+- **Amara Diallo, Senegal, 29 años:** maestra de primaria en Dakar, vivía con su abuela. Poder: fuerza sobrehumana.
+- **Viktor Petrov, Rusia, 34 años:** ex soldado, esposa Irina, hija Katya (5). Poder: resistencia y regeneración.
+
+**Cada misión tiene que ser profunda, no solo enemigos y venganza:** tiene que tener un momento de nostalgia, un recuerdo, una canción, una foto, una carta, un dibujo, diálogos interesantes entre los personajes. La historia no es de venganza, es de **volver a ser personas**.
+
+## 5. QUÉ QUIERO HACER AHORA (SIGUIENTE PASO)
 
 **La prueba de la Tanda 11 YA ESTÁ HECHA por mí en mi celular. No me pidas probarla, avanza directamente.**
 
 El siguiente paso es:
 
-1. **Misión 2:** una misión nueva, igual de especial (su propio mapa, su propio enemigo especial, su propio evento, su propia decisión/ruta y su propio jefe), usando todo lo aprendido en la Misión 1.
-2. Después: más profundidad en la DROP MACHINE, más sinergias de cartas, el cooperativo local para 2 jugadores en una PC, y pulido de arte/sonido solo cuando yo lo pida.
+1. **Misión 2 — YUKI EN TOKIO, como Tanda 13, basada en la Tanda 11 (NO en la Tanda 12):** su propio mapa (Tokio), su propio enemigo especial, su propio evento, su propia decisión/ruta, su propio jefe (el científico que la secuestró), su momento de nostalgia (el dibujo de Hana), y al terminarla desbloquear a Hana como easter egg en el selector de Yuki.
+2. Después: Misión 3 (Amara), Misión 4 (Viktor), Misión 5 (El Capitán), más profundidad en la DROP MACHINE, más sinergias de cartas, el cooperativo local para 2 jugadores en una PC, y pulido de arte/sonido solo cuando yo lo pida.
 
-## 5. COSAS QUE NO QUIERO (TODAVÍA)
+**SIEMPRE usa el prompt más nuevo del repo de GitHub (`QuitsT/EXPERIMENTO-001`, archivo `PROMPT_CONTINUIDAD_ANTIGRAVITY.md`). Si el prompt que tienes no menciona a Yuki, Hana, Amara, Viktor y las 5 misiones, es un prompt VIEJO: no lo uses, pide el nuevo.**
+
+## 6. COSAS QUE NO QUIERO (TODAVÍA)
 
 - No rediseñes el arte (los enemigos son rectángulos a propósito, por ahora).
 - No añadas música de fondo (todavía no).
 - No hagas un jefe nuevo por tu cuenta sin que lo acordemos (ya me lo preguntaste una vez y te dije que no, que lo hacemos juntos).
-- No toques la Tanda 11 ni las tandas anteriores; la siguiente tanda es una copia nueva (Tanda 12) basada en la Tanda 11.
+- No toques la Tanda 11 ni las tandas anteriores; la siguiente tanda es una copia nueva (**Tanda 13**) basada en la Tanda 11. La Tanda 12 (Sector Industrial) NO es base de nada.
 - No me pidas instalar nada ni activar ningún servidor: el juego es un archivo HTML que abro en el navegador.
 
-## 6. ARCHIVOS QUE TE PASO
+## 7. ARCHIVOS QUE TE PASO
 
-- **`experimento_001_tanda11.html`** — el código actual, completo. Este es el archivo que debes copiar y modificar para la siguiente tanda.
-- Este prompt — léelo completo antes de tocar el código.
+- **`experimento_001_tanda11.html`** — el código actual, completo. Este es el archivo que debes copiar y modificar para la siguiente tanda. **NO uses la Tanda 12 como base.**
+- Este prompt — léelo completo antes de tocar el código. **Si tu copia no tiene la sección 4 (Historia, Yuki, Hana, Amara, Viktor, 5 misiones), es vieja: usa la del repo de GitHub.**
 
-Empieza confirmándome que leíste el prompt y el código, y **avanza directamente con la Misión 2 (Tanda 12)**. No me pidas que pruebe la Tanda 11 primero: esa prueba ya está hecha.
+Empieza confirmándome que leíste el prompt y el código, y **avanza directamente con la Misión 2 — Yuki en Tokio (Tanda 13)**. No me pidas que pruebe la Tanda 11 primero: esa prueba ya está hecha.
