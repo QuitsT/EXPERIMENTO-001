@@ -1,6 +1,6 @@
 # PROMPT DE CONTINUIDAD — EXPERIMENTO 001 (para Antigravity / Claude / Gemini)
 
-Copia y pega este prompt completo en Antigravity, junto con el archivo `experimento_001_tanda11.html` (el código actual del juego). Responde siempre en español.
+Copia y pega este prompt completo en Antigravity, junto con el archivo `experimento_001_tanda14.html` (el código actual del juego). Responde siempre en español.
 
 ---
 
@@ -23,9 +23,9 @@ Plataforma: PC (incluso máquinas muy modestas, ~2 GB RAM) y táctil en celular.
 - Responde en español, informal y directo.
 - El código debe ser completo, listo para copiar y pegar.
 
-## 3. ESTADO ACTUAL — TANDA 11 (13 de noviembre de 2026)
+## 3. ESTADO ACTUAL — TANDA 14 (15 de noviembre de 2026)
 
-El archivo actual es `experimento_001_tanda11.html` (304 KB, ~4511 líneas). La Tanda 11 es la última y está probada por mí en el celular. Las Tandas 3 a 10 quedan guardadas intactas, no las toques.
+El archivo actual es `experimento_001_tanda14.html` (382.674 bytes, 5.888 líneas). La Tanda 14 es la última y está probada por mí en el celular. Las Tandas 3 a 13 quedan guardadas intactas, no las toques.
 
 ### 3.1 Base del juego (Tanda 2, probada por mí, está bien)
 
@@ -120,11 +120,22 @@ La Misión 2 real es la de **Yuki en Tokio** (sección 4). Hazla como **Tanda 13
 
 ### 3.12 Tanda 13 — Misión 2: Yuki en Tokio (HECHA, 14 nov 2026, 11:44 CST, por Gravity)
 
-- Archivo `experimento_001_tanda13.html` (5002 líneas). **Base actual: Tanda 13, NO Tanda 11 ni Tanda 12.**
+- Archivo `experimento_001_tanda13.html` (5002 líneas). **En ese momento era la base actual: Tanda 13, NO Tanda 11 ni Tanda 12.** (Hoy la base actual es la Tanda 14, ver 3.13.)
 - 4 zonas: Akihabara, Shinjuku, Archivo Clandestino, Estación Shibuya. Enemigos: shinobi, ciberagente, mecha sentry. Jefe: El Científico del Secuestro, 48 HP, fase de furia.
 - Momento de nostalgia: servilleta con el dibujo de Hana, +1 vida y carta legendaria, diálogos de Yuki y El Capitán.
 - Hana desbloqueable: al terminar la Misión 2, `localStorage experimento001_hana_unlocked = true`, selector Capitán / Yuki / Hana. Hana +15% velocidad, Yuki +10%.
 - **Probada por mí en el celular: sirve excelente.**
+- La Tanda 12 (Sector Industrial) queda descartada, no es base de nada.
+
+### 3.13 Tanda 14 — Misión 3: Amara en Dakar (HECHA, 15 nov 2026, por Claude)
+
+- Archivo `experimento_001_tanda14.html` (382.674 bytes, 5.888 líneas). **Base actual: Tanda 14, NO Tanda 11, ni Tanda 12, ni Tanda 13.**
+- 4 zonas: Mercado de Sandaga, Puerto y Corniche, Archivo de la «ONG», Mi Escuela. Enemigos: Asaltante de la «ONG» (carga hasta ~80 px, dispara 3 perdigones). Evento: una camioneta blanca sin placas llega y bajan los asaltantes. Jefa: la Directora del Proyecto en África, 48 HP, fase de furia al 50%. **No muere:** se rinde y Amara la sienta en un salón frente al pizarrón «NADIE ES UN EXPERIMENTO».
+- Momento de nostalgia: el expediente «Experimento 003… Recomendación: uso como arma de asalto» y después la grabación en wolof; Amara vuelve a cantar bajito por primera vez en dos años. Da +1 vida, carta legendaria y +150 XP, solo una vez por partida.
+- Selector: Capitán / Yuki / Hana / Amara. Amara +10% de daño. Hana sigue desbloqueándose solo al terminar la Misión 2.
+- Arreglos incluidos: el teclado de PC ya funciona (error `cy is not defined` corregido), el selector del HUD ya no está tapado, «REPETIR M2» funciona, continuar desde checkpoint en la M2 usa los enemigos de su misión, el cronómetro arranca en 00:00 en cada misión, y la pantalla de fin ya no pisa los botones ni la frase final.
+- **Verificación: PASS en los 8 controles (base Tanda 13, Misión 3 completa, jefa no muere, selector con Amara, Hana intacta, sin sistemas inventados, arreglos en código, `node --check` OK). Commit en GitHub `68870dc`.**
+- **Probada por mí en el celular: me gustó, el nivel de Amara se siente con más vida.**
 - La Tanda 12 (Sector Industrial) queda descartada, no es base de nada.
 
 ## 4. HISTORIA (ESCRITA EL 14 DE NOVIEMBRE DE 2026 — LÉELA, ES LA BASE DE TODO)
@@ -147,12 +158,12 @@ Los 4 personajes (archivo `HISTORIA-EXPERIMENTO-001.md` en el repo, léelo compl
 
 ## 5. QUÉ QUIERO HACER AHORA (SIGUIENTE PASO)
 
-**La prueba de la Tanda 11 YA ESTÁ HECHA por mí en mi celular. No me pidas probarla, avanza directamente.**
+**La prueba de la Tanda 14 YA ESTÁ HECHA por mí en mi celular. No me pidas probarla, avanza directamente.**
 
 El siguiente paso es:
 
-1. **Misión 3 — AMARA EN DAKAR, como Tanda 14, basada en la Tanda 13 (NO en la Tanda 12):** su propio mapa (Dakar, Senegal), su propio enemigo especial, su propio evento, su propia decisión/ruta, su propio jefe (la directora del proyecto en África), su momento de nostalgia (la grabación de Amara cantando para sus niños, y volver a cantar después de 2 años). Amara es maestra de primaria, recupera su escuela convertida en laboratorio. Selector: Capitán / Yuki / Hana / Amara.
-2. Después: Misión 4 (Viktor en Moscú), Misión 5 (El Capitán, volver a la Instalación a cerrarla), más profundidad en la DROP MACHINE, más sinergias de cartas, el cooperativo local para 2 jugadores en una PC, y pulido de arte/sonido solo cuando yo lo pida.
+1. **Misión 4 — VIKTOR EN MOSCÚ, como Tanda 15, basada en la Tanda 14 (NO en la Tanda 12 ni en la Tanda 13):** su propio mapa (Moscú, Rusia), su propio enemigo especial, su propio evento, su propia decisión/ruta, su propio jefe (su comandante, el que lo vendió al gobierno por dinero; Viktor lo derrota pero NO lo mata, lo deja vivir), su momento de nostalgia (las 47 cartas que escribió y nunca mandó; las lee una por una y dice: «Yo no quiero ser un héroe. Yo quiero ser un papá. Nomás eso»). Viktor es ex soldado, vuelve con su esposa Irina y su hija Katya. Selector: Capitán / Yuki / Hana / Amara / Viktor.
+2. Después: Misión 5 (El Capitán, volver a la Instalación a cerrarla), más profundidad en la DROP MACHINE, más sinergias de cartas, el cooperativo local para 2 jugadores en una PC, y pulido de arte/sonido solo cuando yo lo pida.
 
 **SIEMPRE usa el prompt más nuevo del repo de GitHub (`QuitsT/EXPERIMENTO-001`, archivo `PROMPT_CONTINUIDAD_ANTIGRAVITY.md`). Si el prompt que tienes no menciona a Yuki, Hana, Amara, Viktor y las 5 misiones, es un prompt VIEJO: no lo uses, pide el nuevo.**
 
@@ -161,12 +172,12 @@ El siguiente paso es:
 - No rediseñes el arte (los enemigos son rectángulos a propósito, por ahora).
 - No añadas música de fondo (todavía no).
 - No hagas un jefe nuevo por tu cuenta sin que lo acordemos (ya me lo preguntaste una vez y te dije que no, que lo hacemos juntos).
-- No toques la Tanda 13 ni las tandas anteriores; la siguiente tanda es una copia nueva (**Tanda 14**) basada en la Tanda 13. La Tanda 12 (Sector Industrial) NO es base de nada.
+- No toques la Tanda 14 ni las tandas anteriores; la siguiente tanda es una copia nueva (**Tanda 15**) basada en la Tanda 14. La Tanda 12 (Sector Industrial) NO es base de nada.
 - No me pidas instalar nada ni activar ningún servidor: el juego es un archivo HTML que abro en el navegador.
 
 ## 7. ARCHIVOS QUE TE PASO
 
-- **`experimento_001_tanda13.html`** — el código actual, completo. Este es el archivo que debes copiar y modificar para la siguiente tanda. **NO uses la Tanda 12 como base.**
+- **`experimento_001_tanda14.html`** — el código actual, completo. Este es el archivo que debes copiar y modificar para la siguiente tanda. **NO uses la Tanda 12 como base, ni la Tanda 13: la base es la Tanda 14.**
 - Este prompt — léelo completo antes de tocar el código. **Si tu copia no tiene la sección 4 (Historia, Yuki, Hana, Amara, Viktor, 5 misiones), es vieja: usa la del repo de GitHub.**
 
-Empieza confirmándome que leíste el prompt y el código, y **avanza directamente con la Misión 3 — Amara en Dakar (Tanda 14)**. No me pidas que pruebe la Tanda 13 primero: esa prueba ya está hecha.
+Empieza confirmándome que leíste el prompt y el código, y **avanza directamente con la Misión 4 — Viktor en Moscú (Tanda 15)**. No me pidas que pruebe la Tanda 14 primero: esa prueba ya está hecha.
