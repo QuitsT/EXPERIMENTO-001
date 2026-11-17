@@ -1,6 +1,6 @@
 # PROMPT DE CONTINUIDAD — EXPERIMENTO 001 (para Antigravity / Claude / Gemini)
 
-Copia y pega este prompt completo en Antigravity, junto con el archivo `experimento_001_tanda14.html` (el código actual del juego). Responde siempre en español.
+Copia y pega este prompt completo en Antigravity, junto con el archivo `experimento_001_tanda16_3.html` (el código actual del juego). Responde siempre en español.
 
 ---
 
@@ -23,9 +23,9 @@ Plataforma: PC (incluso máquinas muy modestas, ~2 GB RAM) y táctil en celular.
 - Responde en español, informal y directo.
 - El código debe ser completo, listo para copiar y pegar.
 
-## 3. ESTADO ACTUAL — TANDA 14 (15 de noviembre de 2026)
+## 3. ESTADO ACTUAL — TANDA 16.3 (16 de noviembre de 2026)
 
-El archivo actual es `experimento_001_tanda14.html` (382.674 bytes, 5.888 líneas). La Tanda 14 es la última y está probada por mí en el celular. Las Tandas 3 a 13 quedan guardadas intactas, no las toques.
+El archivo actual es `experimento_001_tanda16_3.html` (455.470 bytes, 7.192 líneas). La Tanda 16.3 es la última. Las Tandas 3 a 16.2 quedan guardadas intactas, no las toques.
 
 ### 3.1 Base del juego (Tanda 2, probada por mí, está bien)
 
@@ -120,7 +120,7 @@ La Misión 2 real es la de **Yuki en Tokio** (sección 4). Hazla como **Tanda 13
 
 ### 3.12 Tanda 13 — Misión 2: Yuki en Tokio (HECHA, 14 nov 2026, 11:44 CST, por Gravity)
 
-- Archivo `experimento_001_tanda13.html` (5002 líneas). **En ese momento era la base actual: Tanda 13, NO Tanda 11 ni Tanda 12.** (Hoy la base actual es la Tanda 14, ver 3.13.)
+- Archivo `experimento_001_tanda13.html` (5002 líneas). **En ese momento era la base actual: Tanda 13, NO Tanda 11 ni Tanda 12.** (Hoy la base actual es la Tanda 16.3, ver 3.19.)
 - 4 zonas: Akihabara, Shinjuku, Archivo Clandestino, Estación Shibuya. Enemigos: shinobi, ciberagente, mecha sentry. Jefe: El Científico del Secuestro, 48 HP, fase de furia.
 - Momento de nostalgia: servilleta con el dibujo de Hana, +1 vida y carta legendaria, diálogos de Yuki y El Capitán.
 - Hana desbloqueable: al terminar la Misión 2, `localStorage experimento001_hana_unlocked = true`, selector Capitán / Yuki / Hana. Hana +15% velocidad, Yuki +10%.
@@ -129,7 +129,7 @@ La Misión 2 real es la de **Yuki en Tokio** (sección 4). Hazla como **Tanda 13
 
 ### 3.13 Tanda 14 — Misión 3: Amara en Dakar (HECHA, 15 nov 2026, por Claude)
 
-- Archivo `experimento_001_tanda14.html` (382.674 bytes, 5.888 líneas). **Base actual: Tanda 14, NO Tanda 11, ni Tanda 12, ni Tanda 13.**
+- Archivo `experimento_001_tanda14.html` (382.674 bytes, 5.888 líneas). **En ese momento era la base actual: Tanda 14, NO Tanda 11, ni Tanda 12, ni Tanda 13.** (Hoy la base actual es la Tanda 16.3, ver 3.19.)
 - 4 zonas: Mercado de Sandaga, Puerto y Corniche, Archivo de la «ONG», Mi Escuela. Enemigos: Asaltante de la «ONG» (carga hasta ~80 px, dispara 3 perdigones). Evento: una camioneta blanca sin placas llega y bajan los asaltantes. Jefa: la Directora del Proyecto en África, 48 HP, fase de furia al 50%. **No muere:** se rinde y Amara la sienta en un salón frente al pizarrón «NADIE ES UN EXPERIMENTO».
 - Momento de nostalgia: el expediente «Experimento 003… Recomendación: uso como arma de asalto» y después la grabación en wolof; Amara vuelve a cantar bajito por primera vez en dos años. Da +1 vida, carta legendaria y +150 XP, solo una vez por partida.
 - Selector: Capitán / Yuki / Hana / Amara. Amara +10% de daño. Hana sigue desbloqueándose solo al terminar la Misión 2.
@@ -137,6 +137,65 @@ La Misión 2 real es la de **Yuki en Tokio** (sección 4). Hazla como **Tanda 13
 - **Verificación: PASS en los 8 controles (base Tanda 13, Misión 3 completa, jefa no muere, selector con Amara, Hana intacta, sin sistemas inventados, arreglos en código, `node --check` OK). Commit en GitHub `68870dc`.**
 - **Probada por mí en el celular: me gustó, el nivel de Amara se siente con más vida.**
 - La Tanda 12 (Sector Industrial) queda descartada, no es base de nada.
+
+### 3.14 Tanda 15 — Misión 4: Viktor en Moscú (HECHA, 16 nov 2026, por ChatGPT)
+
+- Archivo `experimento_001_tanda15.html` (402.671 bytes, 6.153 líneas). **En ese momento era la base actual: Tanda 15, NO Tanda 12, ni Tanda 13, ni Tanda 14.** (Hoy la base actual es la Tanda 16.3, ver 3.19.)
+- 4 zonas: Calles de Moscú, Distrito Militar, Archivo del Gobierno, Casa de Viktor. Rutas: metro (Ruta A) y avenida Kutuzovski (Ruta B). Enemigos: Rastreador del Regimiento y patrulla militar. Jefe: su comandante, el que lo vendió al gobierno, 48 HP, fase de furia al 50%. **No muere:** Viktor lo derrota y lo deja vivir.
+- Momento de nostalgia: el archivo del gobierno con sus 47 cartas nunca mandadas; las lee y dice «Yo no quiero ser un héroe. Yo quiero ser un papá. Nomás eso». Da +1 vida, carta legendaria y +150 XP, solo una vez por partida.
+- Final: reencuentro con Irina y Katya, «Soy tu papá. Ya volví. Y esta vez me quedo».
+- Selector: Capitán / Yuki / Hana / Amara / Viktor. Hana sigue desbloqueándose solo al terminar la Misión 2; Amara intacta.
+- Mini-jefe de ruta: Comandante del Metro (30 HP, con escudo) en la ruta del metro — **me gustó, se queda**.
+- **Verificación: PASS en los 8 controles (base Tanda 14, Misión 4 completa, comandante no muere, selector con Viktor, Hana y Amara intactas, sin sistemas inventados, `node --check` OK). Commit en GitHub `a5be07a`.**
+- La Tanda 12 (Sector Industrial) queda descartada, no es base de nada.
+
+### 3.15 Tanda 15.1 — Pulido (HECHA, 16 nov 2026, por ChatGPT)
+
+- Archivo `experimento_001_tanda15_1.html` (416.311 bytes, 6.424 líneas). **En ese momento era la base actual: Tanda 15.1, NO Tanda 12, ni Tanda 13, ni Tanda 14, ni Tanda 15.** (Hoy la base actual es la Tanda 16.3, ver 3.19.)
+- Bug de las cartas arreglado de verdad: las cartas aterrizan sobre plataformas, no atraviesan objetos ni el piso, tienen imán de recogida (130 px, recogida a 30 px) y si quedan fuera de alcance reaparecen frente al jugador.
+- Sonidos WebAudio (sin archivos, sin música de fondo): disparar, golpear, recibir daño, romper escudo y recoger recompensas. El sonido de disparo se corrigió con una línea (`playSfx("shot")` en `updateShooting()`).
+- Combate: retroceso, parpadeo más visible y pequeñas animaciones al recibir impactos.
+- Misión 1 más presentable: 4 zonas con identidades visuales más diferenciadas, fondos, colores, escenarios y transiciones, sin tocar su historia, sus mecánicas, su jefe (Comandante Experimental) ni su dificultad.
+- Arreglo extra: el nombre de Viktor en el HUD ya no cae en «CAPITÁN».
+- No se empezó la Misión 5. No se tocó la historia ni la dificultad.
+- **Verificación: ACCEPT (base Tanda 15, bug de cartas real en código, sonidos y combate reales, Misión 1 mejorada, sin sistemas inventados, `node --check` OK). Commit en GitHub `863d94d`.**
+- **Probada por mí en el celular: sí suena el disparo y las cartas ya no se buguean.**
+- La Tanda 12 (Sector Industrial) queda descartada, no es base de nada.
+
+### 3.16 Tanda 16 — Misión 5: El Capitán (HECHA, 16 nov 2026, por ChatGPT)
+
+- Archivo `experimento_001_tanda16.html` (436.676 bytes, 6.695 líneas). **En ese momento era la base actual: Tanda 16, NO Tanda 12, ni Tanda 13, ni Tanda 14, ni Tanda 15, ni Tanda 15.1.** (Hoy la base actual es la Tanda 16.3, ver 3.19.)
+- Misión 5: los 4 vuelven juntos a la Instalación, no a escapar, a cerrarla. 4 zonas: Perímetro de la Instalación, Bloque de Contención, Laboratorios Originales, Núcleo de la Instalación. 2 rutas: conductos de mantenimiento (Ruta A) y pasillo principal (Ruta B). Eventos: protocolo de contención, suministros y sobrecarga del núcleo.
+- Jefe final: el director del proyecto, el hombre que ordenó el secuestro de Daniel, 48 HP, fase de furia al 50%. **No muere: Daniel lo deja vivir para que vea lo que le hizo al mundo** («No te voy a matar. Te voy a dejar vivir, para que veas lo que le hiciste al mundo»), igual que la Directora y el comandante de Viktor quedaron vivos.
+- Momento final: después de caer la Instalación, Daniel saca de su bota la foto de su mamá y su hermanito y dice «Ya voy para la casa». **La foto es solo la escena final, sin premio de nostalgia (+1 vida / carta legendaria / +150 XP)**, así lo decidió Christopher. Frase central: «No salimos para vengarnos. Salimos para volver a ser personas».
+- Selector: Capitán / Yuki / Hana / Amara / Viktor. Hana sigue desbloqueándose solo al terminar la Misión 2. Sin música, sin cooperativo, sin sistemas inventados, sin quitar mecánicas.
+- **Verificación: ACCEPT (base Tanda 15.1, Misión 5 completa, director queda vivo, foto solo escena final, `node --check` OK). Commit en GitHub `ee028b4`.**
+- La Tanda 12 (Sector Industrial) queda descartada, no es base de nada.
+
+### 3.17 Tanda 16.1 — Interfaz arcade estilo Metal Slug (HECHA, 16 nov 2026, por ChatGPT)
+
+- Archivo `experimento_001_tanda16_1.html` (434.185 bytes, 6.682 líneas). **En ese momento era la base actual: Tanda 16.1, NO Tanda 12, ni Tanda 13, ni Tanda 14, ni Tanda 15, ni Tanda 15.1, ni Tanda 16.** (Hoy la base actual es la Tanda 16.3, ver 3.19.)
+- Rediseño SOLO de la interfaz/HUD, estilo arcade como Metal Slug, sin tocar misiones, jefes, historia, mecánicas, dificultad ni el sistema de cartas: HUD mínimo durante el juego (solo vidas, puntos, tiempo y misión arriba), cartas/XP/árbol/combos fuera del HUD de combate (siguen intactos, solo se ven en la pantalla de cartas y en la DROP MACHINE), título gigante «MISSION 1»–«MISSION 5» al empezar cada misión, texto sin cortarse en el borde izquierdo, controles táctiles más chicos.
+- Botones de saltar, agacharse y disparar agrupados MÁS A LA DERECHA, con el disparo pegado al borde derecho, fáciles de alcanzar con el pulgar derecho en el celular; movimiento izquierda/derecha sigue a la izquierda.
+- Corrección incluida: el selector de personaje se abre tocando el panel «MISSION n» de la barra superior (Capitán / Yuki / Hana / Amara / Viktor) y el aviso de puerta de oleada «ELIMINA A TODOS PARA AVANZAR · QUEDAN: N» volvió, en una sola línea pequeña.
+- **Verificación: ACCEPT con arreglo (base Tanda 16, HUD mínimo real, título MISSION grande, botones a la derecha, selector y aviso de oleada restaurados, sin sistemas inventados, `node --check` OK). Commit en GitHub `a5426117`.**
+- **Probada por mí en el celular: me encantó («Ufff chulada»).**
+- La Tanda 12 (Sector Industrial) queda descartada, no es base de nada.
+
+### 3.18 Tanda 16.2 — Pulido Metal Slug: rutas, cinemáticas, rescates, sonidos (HECHA, 16 nov 2026, por ChatGPT)
+
+- Archivo `experimento_001_tanda16_2.html` (448.104 bytes, 7.053 líneas). **En ese momento era la base actual: Tanda 16.2, NO Tanda 12, ni Tanda 13, ni Tanda 14, ni Tanda 15, ni Tanda 15.1, ni Tanda 16, ni Tanda 16.1.** (Hoy la base actual es la Tanda 16.3, ver 3.19.)
+- Rutas arregladas de fondo: oleadas en orden secuencial, `waveCleared()` exige enemigos con `hp > 0`, extras por ruta con guardado independiente. Cinemáticas: «MISSION n START», «MISSION n COMPLETE!» con puntos/rescates y «MISSION ALL OVER!» + créditos tras la Misión 5. Rescates: 3 jaulas por misión, liberables disparando o tocando, «THANK YOU!», +500 puntos, sin pausar el juego. Sonidos solo WebAudio, distintos por arma, explosiones y puntos flotantes. HUD arcade de la 16.1 intacto.
+- **Verificación: ACCEPT (base Tanda 16.1, rutas secuenciales reales en código, rescates por disparo y contacto, cinemáticas y créditos reales, `node --check` OK). Commit en GitHub `32e9bc7f`.**
+- La Tanda 12 (Sector Industrial) queda descartada, no es base de nada.
+
+### 3.19 Tanda 16.3 — FUSIÓN OFICIAL ChatGPT + Claude (HECHA, 16 nov 2026, aprobada por mí)
+
+- Archivo `experimento_001_tanda16_3.html` (455.470 bytes, 7.192 líneas). **Base actual: Tanda 16.3, NO Tanda 12, ni Tanda 13, ni Tanda 14, ni Tanda 15, ni Tanda 15.1, ni Tanda 16, ni Tanda 16.1, ni Tanda 16.2.**
+- Fusión de lo mejor de las dos versiones de la 16.2: base la oficial de ChatGPT (oleadas secuenciales, `waveCleared` con `hp > 0`, rescates por disparo o contacto) + lo mejor de la versión de prueba de Claude: flecha GO ▶, puerta cerrada visible (barrera roja/amarilla), aviso «¡ZONA LIBRE!», flecha de agacharse, watchdog anti-bloqueo (a los 40 s los enemigos que faltan, menos jefes, se teletransportan al jugador; a los 80 s sin jefes vivos se fuerza la puerta), 5 rescates por misión en vez de 3, pantalla COMPLETE animada con count-up de puntos, y créditos con nombres reales corregidos (Christopher «Quits», Dr. Raúl Villanueva, UNIPOLI Grupo 1B, ChatGPT · Claude · Antigravity/Gravity; Gemini NO aparece porque nunca entregó una tanda válida). Corregido además el bug de Claude del «+500» encima del globo «THANK YOU!» (+500 nace 34 px arriba del texto).
+- **Verificación: ACCEPT (base Tanda 16.2 oficial, 0 funciones eliminadas, 5 nuevas; `node --check` OK; oleadas secuenciales, 5 rescates por disparo y contacto, GO, watchdog 40 s / 80 s, COMPLETE animado, créditos corregidos, HUD/selector intactos). Aprobada por mí: «Me convence».**
+- La Tanda 12 (Sector Industrial) queda descartada, no es base de nada.
+
 
 ## 4. HISTORIA (ESCRITA EL 14 DE NOVIEMBRE DE 2026 — LÉELA, ES LA BASE DE TODO)
 
@@ -158,12 +217,10 @@ Los 4 personajes (archivo `HISTORIA-EXPERIMENTO-001.md` en el repo, léelo compl
 
 ## 5. QUÉ QUIERO HACER AHORA (SIGUIENTE PASO)
 
-**La prueba de la Tanda 14 YA ESTÁ HECHA por mí en mi celular. No me pidas probarla, avanza directamente.**
-
 El siguiente paso es:
 
-1. **Misión 4 — VIKTOR EN MOSCÚ, como Tanda 15, basada en la Tanda 14 (NO en la Tanda 12 ni en la Tanda 13):** su propio mapa (Moscú, Rusia), su propio enemigo especial, su propio evento, su propia decisión/ruta, su propio jefe (su comandante, el que lo vendió al gobierno por dinero; Viktor lo derrota pero NO lo mata, lo deja vivir), su momento de nostalgia (las 47 cartas que escribió y nunca mandó; las lee una por una y dice: «Yo no quiero ser un héroe. Yo quiero ser un papá. Nomás eso»). Viktor es ex soldado, vuelve con su esposa Irina y su hija Katya. Selector: Capitán / Yuki / Hana / Amara / Viktor.
-2. Después: Misión 5 (El Capitán, volver a la Instalación a cerrarla), más profundidad en la DROP MACHINE, más sinergias de cartas, el cooperativo local para 2 jugadores en una PC, y pulido de arte/sonido solo cuando yo lo pida.
+1. **Tanda 16.4, basada en la Tanda 16.3 (NO en la Tanda 12, ni en la Tanda 13, ni en la Tanda 14, ni en la Tanda 15, ni en la Tanda 15.1, ni en la Tanda 16, ni en la Tanda 16.1, ni en la Tanda 16.2):** lo que yo te pida después de probar la 16.3 en mi celular (correcciones de lo que encuentre en la prueba, o el siguiente pulido que yo defina). No inventes el alcance de la 16.4 por tu cuenta: espera mi feedback de la prueba de la 16.3.
+2. Después: más profundidad en la DROP MACHINE, más sinergias de cartas, el cooperativo local para 2 jugadores en una PC, y pulido de arte/sonido solo cuando yo lo pida.
 
 **SIEMPRE usa el prompt más nuevo del repo de GitHub (`QuitsT/EXPERIMENTO-001`, archivo `PROMPT_CONTINUIDAD_ANTIGRAVITY.md`). Si el prompt que tienes no menciona a Yuki, Hana, Amara, Viktor y las 5 misiones, es un prompt VIEJO: no lo uses, pide el nuevo.**
 
@@ -172,12 +229,12 @@ El siguiente paso es:
 - No rediseñes el arte (los enemigos son rectángulos a propósito, por ahora).
 - No añadas música de fondo (todavía no).
 - No hagas un jefe nuevo por tu cuenta sin que lo acordemos (ya me lo preguntaste una vez y te dije que no, que lo hacemos juntos).
-- No toques la Tanda 14 ni las tandas anteriores; la siguiente tanda es una copia nueva (**Tanda 15**) basada en la Tanda 14. La Tanda 12 (Sector Industrial) NO es base de nada.
+- No toques la Tanda 16.3 ni las tandas anteriores; la siguiente tanda es una copia nueva (**Tanda 16.4**) basada en la Tanda 16.3. La Tanda 12 (Sector Industrial) NO es base de nada.
 - No me pidas instalar nada ni activar ningún servidor: el juego es un archivo HTML que abro en el navegador.
 
 ## 7. ARCHIVOS QUE TE PASO
 
-- **`experimento_001_tanda14.html`** — el código actual, completo. Este es el archivo que debes copiar y modificar para la siguiente tanda. **NO uses la Tanda 12 como base, ni la Tanda 13: la base es la Tanda 14.**
+- **`experimento_001_tanda16_3.html`** — el código actual, completo. Este es el archivo que debes copiar y modificar para la siguiente tanda. **NO uses la Tanda 12 como base, ni la Tanda 13, ni la Tanda 14, ni la Tanda 15, ni la Tanda 15.1, ni la Tanda 16, ni la Tanda 16.1, ni la Tanda 16.2: la base es la Tanda 16.3.**
 - Este prompt — léelo completo antes de tocar el código. **Si tu copia no tiene la sección 4 (Historia, Yuki, Hana, Amara, Viktor, 5 misiones), es vieja: usa la del repo de GitHub.**
 
-Empieza confirmándome que leíste el prompt y el código, y **avanza directamente con la Misión 4 — Viktor en Moscú (Tanda 15)**. No me pidas que pruebe la Tanda 14 primero: esa prueba ya está hecha.
+Empieza confirmándome que leíste el prompt y el código, y **avanza directamente con la Tanda 16.4 (lo que yo te pida tras probar la 16.3)**.
